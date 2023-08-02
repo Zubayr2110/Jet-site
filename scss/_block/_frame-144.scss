@@ -1,0 +1,40 @@
+.frame__144{
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;    
+    background: rgba(232, 181, 119, 0.70);
+    background-blend-mode: soft-light;
+    background-image: url(/images/image\ 206.png);
+    .section-img{
+        padding-top: 120px;
+        padding-left: 140px;
+    }
+    .frame__144-text{
+        margin-top: 160px;
+        margin-left: 140px;
+        width: 960px;
+        height: 174px;
+        .frame__144-text-1{
+            color: var(--ff-4-c-0-d, #FF4C0D);
+            font-family: 'Roboto', sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 110%;
+        }
+        .frame__144-text-2{
+            padding-top: 40px;
+            color: var(--151515, #151515);
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: -0.14px;
+        }
+    }
+    .frame__144-img{
+        margin-top: -1000px;
+        margin-left: 1330px;
+    }
+}

@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 171px;
+    margin: 0 auto;
+    background: #222;
+    .footer-text-1{
+        padding-left: 140px;
+        width: 146px;
+        height: 52px;
+        color: var(--f-1-f-1-f-1, #F1F1F1);
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: -0.14px;
+    }
+    .footer-text-2{
+        margin-left: 730px;
+        width: 280px;
+        height: 52px;
+        color: var(--f-1-f-1-f-1, #F1F1F1);
+        text-align: right;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: -0.14px;
+    }
+}

@@ -1,0 +1,268 @@
+header{
+    width: 1440px;
+    height: 1861px;
+    margin: 0 auto;
+    background: #222;
+
+    .header__liner-gradient{
+        position: relative;
+        margin-left: 700px;
+        margin-top: -200px;
+        width: 859.5px;
+        height: 863.5px;
+        border-radius: 863px;
+        opacity: 0.50000000298023224;
+        filter: blur(140px);
+        background: linear-gradient(#FC7C1F, #222);
+    }
+    .header__nav{
+        position: absolute;
+        margin-top: -650px;
+        display: flex;
+        align-items: center;
+        width: 1440px;
+        height: 94px;
+        .header__nav-logo{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            width: 200px;
+            height: 94px;
+        }
+        .header__nav-list{
+            margin-left: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 486px;
+            height: 21px;
+            .header__nav-list-li{
+                list-style: none;
+                .header__nav-list-link{
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                    color: var(--f-1-f-1-f-1, #F1F1F1);
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%; 
+                    letter-spacing: -0.14px;
+                }
+                .header__nav-list-link:hover{
+                    color: red;
+                    border-bottom: 2px solid white;
+                }
+            }
+        }
+        .header__nav-button{
+            margin-left: 390px;
+            background-color: #fff;
+            width: 122px;
+            height: 54px;
+            border-radius: 65px;
+            border: 1px solid white;
+            color: var(--151515, #151515);
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+        }
+        .header__nav-button:hover{
+            background-color: #a4a4a4;
+            color: red;
+            border: 4px solid rgb(0, 255, 247);
+        }
+    }
+    .header__hero{
+        margin-top: -555px;
+        width: 1440px;
+        height: 1785px;
+        .header__hero-text{
+            margin-left: 140px;
+            margin-top: 100px;
+            width: 1159px;
+            height: 334px;
+            .header__hero-text-h1{
+                color: var(--f-1-f-1-f-1, #F1F1F1);
+                font-family: 'Roboto', sans-serif;
+                font-size: 80px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 100%; 
+            }
+            .header__hero-text-p{
+                padding-top: 30px;
+                color: var(--ff-4-c-0-d, #FF4C0D);
+                font-family: 'Roboto', sans-serif;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%;
+            }
+        }
+        .header__hero-button{
+            display: flex;
+            margin-left: 140px;
+            margin-top: 70px;
+            width: 248px;
+            height: 54px;
+            border-radius: 108px;
+            border: 3px solid white;
+            .header__hero-button-1{
+                width: 118px;
+                height: 55px;
+                background: #fff;
+                border-radius: 27px;
+                border: 1px solid white;
+                color: var(--151515, #151515);
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+            }
+            .header__hero-button-1:hover{
+                background: #a6a6a6;
+                color: #fff;
+                border: 1px solid #a4a4a400;
+            }
+            .header__hero-button-2{
+                margin-left: -1px;
+                width: 130px;
+                height: 54px;
+                background-color: #222;
+                border-radius: 25px;
+                border: 1px solid #222;
+                color: var(--f-1-f-1-f-1, #F1F1F1);
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+            }
+            .header__hero-button-2:hover{
+                background: #a4a4a4;
+            }
+        }
+        .header__hero-text-2{
+            padding-top: 200px;
+            padding-left: 140px;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 110%;
+        }
+        .header__hero-frame{
+            margin-left: 140px;
+            margin-top: 50px;
+            width: 1180px;
+            height: 183px;
+            .header__hero-frame-1{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 24px;
+                .header__hero-frame-1-1{
+                    color: var(--f-1-f-1-f-1, #F1F1F1);
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%;
+                }
+                .header__hero-frame-1-2{
+                    padding-left: 200px;
+                    color:#c0c0c0;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%;
+                }
+            }
+            .header__hero-frame-line{
+                display: flex;
+                margin-top: 15px;
+                width: 100%;
+                height: 7px;
+                .header__hero-frame-line-1{
+                    width: 340px;
+                    height: 3px;
+                    background: var(--ff-4-c-0-d, #FF4C0D);
+                }
+                .header__hero-frame-line-2{
+                    width: 740px;
+                    height: 3px;
+                    background-color: #cdcdcd;
+                }
+            }
+            .header__hero-frame-text{
+                display: flex;
+                margin-top: 10px;
+                width: 100%;
+                height: 126px;
+                .header__hero-frame-text-1{
+                    width: 360px;
+                    height: 126px;
+                    color: #F1F1F1;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+                    letter-spacing: -0.14px;
+                }
+                .header__hero-frame-text-2{
+                    padding-left: 30px;
+                    width: 360px;
+                    height: 84px;
+                    color: #cdcdcd;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+                    letter-spacing: -0.14px;
+                }
+                .header__hero-frame-text-3{
+                    padding-left: 40px;
+                    width: 360px;
+                    height: 84px;
+                    color: #cdcdcd;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+                    letter-spacing: -0.14px;
+                }
+            }
+        }
+        .header__hero-img{
+            margin-top: 100px;
+            display: flex;
+            width: 100%px;
+            height: 540px;
+            background-image: url(/images/Path.svg);
+            background-position-y: 200px;
+            background-repeat: no-repeat;
+            background-color: #222;
+            .header__hero-img-1{
+                margin-left: 140px;
+                width: 760px;
+                height: 400px;
+            }
+            .header__hero-img-2{
+                width: 450px;
+                height: 300px;
+                background-image: url(/images/Rectangle\ 24.svg);
+                background-repeat: no-repeat;
+                background-position-x: 50px;
+            }
+        }
+    }
+}
